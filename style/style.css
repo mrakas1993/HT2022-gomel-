@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header__nav {
+
+}
+.nav {
+    background:#393F47 ;
+    padding: 27px 0;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header {
+    display: flex;
+}
+.menu-header__item {
+    margin-right: 30px;
+}
+.menu-header__item:last-child{
+    margin: 0;
+}
+.menu-header__link {
+    line-height: 114%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header__middle {
+    background: url('../img/background.jpg');
+    padding-top: 155px;
+    padding-bottom: 220px;
+}
+
+.header__middle-title {
+    max-width: 920px;
+    min-height: 245px;
+    border: 1px solid #C8A35F;
+    box-sizing: border-box;
+    padding: 45px 71px;
+    margin:0 auto;
+}
+.title {
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+}
+.text {
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.services {
+    background: #2F343A;
+    padding: 150px 0;
+}
+.services-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 123%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+.services-tarif {
+}
+.tarif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarif-item {
+    background: #393F47;
+    width: 250px;
+    min-height: 180px;
+    padding: 35px 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarif-img {
+    padding-bottom: 40px;
+}
+.tarif-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.tarif-text {
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #C8A35F;
+}
+.map{
+    background: url(../img/maps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+.footer {
+    background:#C8A35F;
+}
+
+.footer__nav {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__nav-logo {
+}
+.footer__nav-img {
+}
+.tel {
+    display: flex;
+    flex-direction: column;
+}
+.tel-company {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F2F2F2;
+    padding-bottom: 10px;
+}
+.tel-company:last-child{
+    padding: 0;
+}
+.company-label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+    color: #2F343A;
+}
