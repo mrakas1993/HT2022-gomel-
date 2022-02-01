@@ -43,9 +43,6 @@ body{
     max-width: 1100px;
     margin: 0 auto;
 }
-.header__nav {
-
-}
 .nav {
     background:#393F47 ;
     padding: 27px 0;
@@ -69,6 +66,10 @@ body{
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.menu-header__link:hover{
+    color: #C8A35F;
+    transition: .5s;
 }
 .header__middle {
     background: url('../img/background.jpg');
@@ -112,8 +113,6 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 60px;
-}
-.services-tarif {
 }
 .tarif {
     display: flex;
@@ -164,10 +163,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.footer__nav-logo {
-}
-.footer__nav-img {
 }
 .tel {
     display: flex;
