@@ -27,8 +27,9 @@ html, body {
 
 body {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
 }
 
 a {
@@ -72,7 +73,7 @@ button {
     color: white;
     font-weight: 700;
     height: 48px;
-    background: #000000;
+    background: rgb(57, 63, 71);
     border-radius: 8px;
     margin-bottom: 15px;  
     transition: all .4s;

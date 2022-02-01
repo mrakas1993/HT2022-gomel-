@@ -9,18 +9,58 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <form>
-        <input type="text" name="full_name" placeholder="Full name">
-        <input type="text" name="login" placeholder="Login">
-        <input type="email" name="email" placeholder="Email">
-        <input type="password" name="password" placeholder="Password">
-        <input type="password" name="password_confirm" placeholder="Confirm password">
-        <button type="submit" class="register-btn">Регистрация</button>
-        <p>
-            У вас есть аккаунт? <a href="#">Вход</a>
-        </p>
-        <p class="msg none">Lorem ipsum.</p>
-    </form>
+    <header class="header">
+        <div class="header__nav nav">
+            <div class="container">
+                <div class="nav-header">
+                    <div class="nav-header__logo logo">
+                        <a href="#" class="logo-link">
+                            <img src="img/logo.svg" alt="logo" class="logo-img">
+                        </a>
+                    </div>
+                    <nav class="nav-header__menu menu">
+                        <ul class="menu-header">
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">Услуги</a></li>
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">Профиль</a></li>
+                            <li class="menu-header__item"><a href="register.html" class="menu-header__link">Регистрация</a></li>
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">Войти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="form">
+        <form>
+            <input type="text" name="full_name" placeholder="Full name">
+            <input type="text" name="login" placeholder="Login">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <input type="password" name="password_confirm" placeholder="Confirm password">
+            <button type="submit" class="register-btn">Регистрация</button>
+            <p>
+                У вас есть аккаунт? <a href="#">Вход</a>
+            </p>
+            <p class="msg none">Lorem ipsum.</p>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__nav">
+                <a href="#" class="footer__nav-logo">
+                    <img class="footer__nav-img" src="img/logo-footer.svg" alt="logo">
+                </a>
+                <div class="tel">
+                    <a href="#" class="tel-company">+7 (812) 344-56-65</a>
+                    <a href="" class="tel-company">+7 (812) 355-56-65</a>
+                </div>
+                <a href="#"class="company-label">
+                    Разработано в SkyNetGroup.com
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
 </body>
 </html>

@@ -185,3 +185,9 @@ body{
     text-decoration: underline;
     color: #2F343A;
 }
+.form{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
